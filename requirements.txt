@@ -1,0 +1,18 @@
+# Core dependencies
+numpy>=1.24.0
+fastapi>=0.100.0
+uvicorn>=0.20.0
+websockets>=11.0
+
+# Optional dependencies
+# For memory reading (Portal 1 process)
+pymem>=1.8.0; sys_platform == "win32"
+
+# For input control
+pynput>=1.7.6
+
+# For BSP parsing (if using srctools)
+srctools>=2.4.0
+
+# For GUI alternative
+flask>=2.3.0
